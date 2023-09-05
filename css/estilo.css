@@ -31,6 +31,7 @@
 .imageniniciotodo{
     width: 800px;
     height: 600px;
+    margin-top: 100px;
 }
 
 /*texto al lado de la imagen de iphone*/
@@ -61,21 +62,31 @@
     text-decoration: underline gold;
     background-color: rgb(0, 0, 0);
 }
-.divlinkiphone{
+.divlinkpaginas{
     background-color: black;
     font-family: 'Red Hat Display', sans-serif;
     text-align: center;
     margin-left: -10px;
     margin-right: -10px;
+    margin-top: 20px;
 }
-.textlinkiphone{
+.textlinkpaginas{
     text-align: center;
     font-family: 'Red Hat Display', sans-serif;
     background-color: black;
     color: white;
     text-decoration: underline gold;
 }
-.linkiphone{
+.textlinkpaginas2{
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 1.3rem;
+}
+.linkpaginas{
     color: rgb(76, 136, 233);
     background-color: black;
     font-family: 'Red Hat Display', sans-serif;
@@ -238,7 +249,7 @@
 .airpod1{
     width: 300px;
     height: 280px;
-    margin-bottom: 3px;
+    margin-top: 34px;
 }
 .airpod2{
     margin-top: 36px;
@@ -247,5 +258,24 @@
 }
 .descripairpod{
     margin-top: -20px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.divwatchs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.watch1{
+    width: 300px;
+    height: 280px;
+    margin-top: 34px;
+}
+.watch2{
+    margin-top: 36px;
+    width: 300px;
+    height: 280px;
+}
+.descripwatch{
+    margin-top: 20px;
     font-family: 'Red Hat Display', sans-serif;
 }
