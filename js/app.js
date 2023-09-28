@@ -3,25 +3,31 @@
 ///el no tener nada almacenado javascript lo denomina como un tipo de dato llamado 'undefined'
 
 /// mensaje de dialogo "alert"
-alert ("¡Bienvenido a Appletatch! A continuacion complete el registro.")
+function saludar() {
+    console.log("¡Hola, bienvenido a nuestra tienda online!"); // una funcion para saludar al cliente
+}
+saludar();
 
-
-
-
-
-//inicio de sesion
+// Inicio de sesion 
 const nombre = prompt("Ingrese su nombre");
+
+let cuentas = []; // Array para almacenar cuentas de usuario
+
 let correo;
 let contraseña;
 let resultado;
 
 correo = prompt("Ingrese correo electronico");
 contraseña = prompt("Ingrese una contraseña");
-resultado = parseFloat(correo) + parseFloat(contraseña);
-alert ("Bienvenido! " + nombre)
 
-/// un prograsma que le permita al usuario meter elementos en el carrito de compras
-/// hasta que el decida no ingresar mas introcudiendo la palabra "no"
-/// una vez que el usuario dijo que no se va a mostrar el total
+let cuenta = { // Crear un objeto que represente la cuenta del usuario
+    correo: correo,
+    contraseña: contraseña
+};
+
+cuentas.push(cuenta); // Agregar la cuenta al array de cuentas
+
+resultado = correo + contraseña;
+alert ("Perfecto! " + nombre + " , tu cuenta ha sido creada con exito"); // alerta que confirma que ya estas registrado
 
 
