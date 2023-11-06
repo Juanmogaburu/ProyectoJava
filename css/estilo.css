@@ -1,0 +1,337 @@
+
+* {
+    background-color: white;
+}
+/*logo de la pagina*/
+.divlogopagina{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logopagina {
+    margin-top: 10px;
+    width: 20%;
+    width:200px;
+    height: 100px;
+}
+
+/*navegacion*/
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    font-size: 1rem;
+}
+.nav{
+    color: black;
+    text-decoration: underline gold;
+    padding: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+/*Pagina de iphone*/
+.inicioiphone{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+/*imagenes de iphones*/
+.imageniniciotodo{
+    width: 800px;
+    height: 600px;
+    margin-top: 100px;
+}
+
+/*texto al lado de la imagen de iphone*/
+.textinicio{
+    font-family: 'Red Hat Display', sans-serif;;
+    color: black;
+    text-decoration: underline gold;
+    margin-left: 80px; 
+} 
+/* texto antes de iphones*/
+.iphonestodos {
+    font-family: 'Red Hat Display', sans-serif;
+    margin-right: -8px;
+    margin-left: -50px;
+    margin-top: -50px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+.iphonestodos1{
+    font-family: 'Red Hat Display', sans-serif;
+    margin-right: -8px;
+    margin-left: -50px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    text-decoration: underline gold;
+    background-color: rgb(0, 0, 0);
+}
+.divlinkpaginas{
+    background-color: black;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 20px;
+}
+.textlinkpaginas{
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: black;
+    color: white;
+    text-decoration: underline gold;
+}
+.textlinkpaginas2{
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 1.3rem;
+}
+.linkpaginas{
+    color: rgb(76, 136, 233);
+    background-color: black;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+/* pagina main, parte de iphone 14*/
+.diviphones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imagen {
+    width: 50%;
+    text-align: center;
+}
+.iphones14128{
+    width: 450px;
+    height: 450px;
+    margin-bottom: -24px;
+}
+.iphones14512{
+    margin-top: 26px;
+    width: 400px;
+    height: 400px;
+}
+.descripiphone{
+    font-family: 'Red Hat Display', sans-serif;
+}
+.BotonComprar {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 1.1rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: 'Red Hat Display', sans-serif;
+    text-decoration: none;
+}
+.iphone13128{
+    width: 450px;
+    height: 450px;
+    margin-bottom: -44px;
+}
+.iphone13256{
+    margin-top: 46px;
+    width: 340px;
+    height: 360px;
+}
+/*pagina de mac*/
+.textomac1{
+    font-family: 'Red Hat Display', sans-serif;
+    margin-right: -8px;
+    margin-left: -50px;
+    margin-top: -50px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+.textomac{
+    font-family: 'Red Hat Display', sans-serif;
+    margin-right: -8px;
+    margin-left: -50px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: underline gold;
+    background-color: rgb(0, 0, 0);
+}
+.divmacs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imagen {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mac1 {
+    width: 550px;
+    height: 390px;
+}
+
+.mac4 {
+    width: 500px;
+    height: 275px;
+    margin-top: 60px;
+    margin-bottom: 55px;
+}
+
+.descripmac, .BotonComprar {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+/*copyright header*/
+.copyfinal{
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    text-decoration: underline gold;
+    margin-top: 80px;
+}
+.copyfinalcon{
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    text-decoration: underline gold;
+    margin-top: 130px;
+}
+.textoairpods1{
+    font-family: 'Red Hat Display', sans-serif;
+    margin-right: -8px;
+    margin-left: -50px;
+    margin-top: -50px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+.textoairpods{
+    font-family: 'Red Hat Display', sans-serif;
+    margin-right: -8px;
+    margin-left: -50px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: underline gold;
+    background-color: rgb(0, 0, 0);
+    font-size: 1.7rem;
+}
+.textowatch{
+    font-family: 'Red Hat Display', sans-serif;
+    margin-right: -8px;
+    margin-left: -50px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: underline gold;
+    background-color: rgb(0, 0, 0);
+    font-size: 1.7rem;
+}
+.textowatch1{
+    font-family: 'Red Hat Display', sans-serif;
+    margin-right: -8px;
+    margin-left: -50px;
+    margin-top: -50px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+.divairpods{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.airpod1{
+    width: 300px;
+    height: 280px;
+    margin-top: 34px;
+}
+.airpod2{
+    margin-top: 36px;
+    width: 300px;
+    height: 280px;
+}
+.descripairpod{
+    margin-top: -20px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.divwatchs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.watch1{
+    width: 300px;
+    height: 280px;
+    margin-top: 34px;
+}
+.watch2{
+    margin-top: 36px;
+    width: 300px;
+    height: 280px;
+}
+.descripwatch{
+    margin-top: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+/*consultas*/
+.textoredes{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: underline gold;
+}
+.divredes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flecha {
+    width: 60px;
+    height: 60px;
+}
+.redes{
+  color: white;
+  font-size: 2rem;
+  font-family: "Bebas Neue", sans-serif;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  align-items: center;
+  margin-top: 100px;
+}
+
+/*carrito*/
+.divcarrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carrito{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+.textoca{
+    text-align: center;    
+    font-family: 'Ubuntu', sans-serif;
+}
