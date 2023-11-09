@@ -1,0 +1,98 @@
+[
+    {
+        "producto": {
+            "nombre": "Iphone 13 128g",
+            "precio": 760,
+            "marca": "Apple"
+        },
+        "cantidad": 2
+    },
+    {
+        "producto": {
+            "nombre": "Iphone 13 256g",
+            "precio": 820,
+            "marca": "Apple"
+        },
+        "cantidad": 2
+    },
+    {
+        "producto": {
+            "nombre": "Iphone 14 128g",
+            "precio": 910,
+            "marca": "Apple"
+        },
+        "cantidad": 2
+    },
+    {
+        "producto": {
+            "nombre": "Iphone 14 512g",
+            "precio": 1060,
+            "marca": "Apple"
+        },
+        "cantidad": 2
+    },
+    {
+        "producto": {
+            "nombre": "MacBook Air M1 13 256gb",
+            "precio": 1050,
+            "marca": "Apple"
+        },
+        "cantidad": 2
+    },   
+    {
+        "producto": {
+            "nombre": "MacBook Pro 13 1tb",
+            "precio": 1250,
+            "marca": "Apple"
+        },
+        "cantidad": 2
+    },
+    {
+        "producto": {
+            "nombre": "MacBook Air M2",
+            "precio": 1360,
+            "marca": "Apple"
+        },
+        "cantidad": 2
+    },
+    {
+        "producto": {
+            "nombre": "MacBook Pro 16 1tb",
+            "precio": 1500,
+            "marca": "Apple"
+        },
+        "cantidad": 2
+    },
+    {
+        "producto": {
+            "nombre": "Airpods 2da generacion",
+            "precio": 150,
+            "marca": "Apple"
+        },
+        "cantidad": 2
+    },
+    {
+        "producto": {
+            "nombre": "Airpods Pro 2",
+            "precio": 180,
+            "marca": "Apple"
+        },
+        "cantidad": 2
+    },
+    {
+        "producto": {
+            "nombre": "Apple Watch SE 2",
+            "precio": 280,
+            "marca": "Apple"
+        },
+        "cantidad": 2
+    },
+    {
+        "producto": {
+            "nombre": "Apple Watch SE",
+            "precio": 240,
+            "marca": "Apple"
+        },
+        "cantidad": 2
+    }
+]

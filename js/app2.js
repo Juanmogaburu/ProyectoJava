@@ -1,11 +1,18 @@
 /// ingresar un elemento
 /// ingresar precio
 /// ingresar cantidad
-
+/*
 let continuar = "si";
 let total = 0;
 
-let productos = [760, 820, 910, 1060]; // precio de los productos
+ // precio de los productos
+ let productos = [
+    { nombre: "Iphone 13 128g", precio: 760 },
+    { nombre: "Iphone 13 256g", precio: 820 },
+    { nombre: "Iphone 14 128g", precio: 910 },
+    { nombre: "Iphone 14 512g", precio: 1060 }
+]; 
+
 
 while (continuar == "si") {
     alert("ingrese el numero correspondiente al producto:\n1. Iphone 13 128g\n2. Iphone 13 256g\n3. Iphone 14 128g\n4. Iphone 14 512g"); // aviso de los productos a disposicion
@@ -15,7 +22,7 @@ while (continuar == "si") {
 
     if (index >= 0 && index < productos.length) {
         let cantidad = prompt("ingrese cantidad del producto"); //cantidad de los productos
-        let precio = productos[index]; // el precio de los productos
+        let precio = productos[index].precio; // el precio de los productos
         let subtotal = precio * cantidad; // subtotal de la compra
         total += subtotal; //suma el total y el subtotal
         alert("producto añadido al carrito, el subtotal es: u$"+subtotal); // alerta de subtotal
@@ -28,3 +35,6 @@ while (continuar == "si") {
 
 }   
     alert("el total del carrito es de u$" + total); // muestra el total del carrito
+
+*/
+
